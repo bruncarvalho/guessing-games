@@ -27,4 +27,15 @@ while (Number(result) != randomNumber) {
     numAttempts++
 }
 
-alert(`Parabéns! Você advinhou o número em ${numAttempts} tentativas`)
+if (numAttempts == 1) {
+  
+  alert(`Parabéns! Você advinhou o número em ${numAttempts} tentativa`)
+
+} else {
+
+  alert(`Parabéns! Você advinhou o número em ${numAttempts} tentativas`)
+}
+
+
+//Opção ternário
+// const resposta = numAttempts == 1 ? alert(`Parabéns! Você advinhou o número em ${numAttempts} tentativa`) : alert(`Parabéns! Você advinhou o número em ${numAttempts} tentativas`)
